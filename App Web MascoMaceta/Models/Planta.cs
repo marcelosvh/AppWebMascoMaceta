@@ -15,6 +15,9 @@ namespace App_Web_MascoMaceta.Models
         [JsonProperty(PropertyName = "planta")]
         public string Name { get; set; }
 
+        [JsonProperty(PropertyName = "descripcion")]
+        public string Description { get; set; }
+
     }
 
 }
