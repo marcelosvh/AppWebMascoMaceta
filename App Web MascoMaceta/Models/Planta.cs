@@ -12,6 +12,9 @@ namespace App_Web_MascoMaceta.Models
         [JsonProperty(PropertyName = "id")]
         public string Id { get; set; }
 
+        [JsonProperty(PropertyName = "planta")]
+        public string Name { get; set; }
+
     }
 
 }
